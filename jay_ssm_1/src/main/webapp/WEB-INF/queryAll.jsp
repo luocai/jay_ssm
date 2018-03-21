@@ -4,7 +4,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <%
-	pageContext.setAttribute("APP_PATH", request.getContextPath()); /*根路径  */
+	pageContext.setAttribute("APP_PATH", request.getContextPath()); /*根路径 /jay_ssm */
 %>
 <script type="text/javascript"
 	src="${APP_PATH }/static/js/jquery-2.1.1.min.js"></script>
@@ -13,6 +13,9 @@
 <script src="${APP_PATH }/static/bootstrap/js/bootstrap.min.js"></script>
 
   <body>
+  <p>${APP_PATH }</p>
+  <br/>
+  <br/>
     <table align = "center" class = "table">
     	<tr>
     		<td>id</td>
