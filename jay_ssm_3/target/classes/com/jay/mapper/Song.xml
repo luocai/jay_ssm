@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace = "com.jay.mapper.SongMapper">
+	<select id = "add" parameterType="Song">
+		insert into songs(name,album,time) values (#{name}, #{album}, #{time})
+	</select>
+	
+	<select id = "delete" >
+		delete from songs where id = #{id};
+	</select>
+	
+	<select id = "update" parameterType="Song">
+		update songs set name = #{name}, album = #{album}, time = #{time} where id = #{id}
+	</select>
+	
+	<select id = "queryAll" resultType="Song">
+		select *from songs
+	</select>
+	
+	<select id = "queryById" resultType = "Song">
+		select *from songs where id = #{id}
+	</select>
+	
+	<select id = "queryByPage" parameterType="PageBean" resultType="Song">
+		select *from songs limit #{startIndex},#{pageSize}
+	</select>
+	
+	<select id = "queryByName" resultType = "Song">
+		select *from songs where name = #{name}
+	</select>
+</mapper>
