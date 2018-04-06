@@ -24,6 +24,6 @@
 相关界面
 ===
 登录界面
-![](https://github.com/luocai/jay_ssm/row/master/image/login.png)
+![Image text](https://github.com/luocai/jay_ssm/blob/master/image/login.png)
 
 
