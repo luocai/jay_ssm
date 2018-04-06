@@ -27,13 +27,14 @@
 相关界面
 ===
 登录界面<br/>
-![Image text](https://github.com/luocai/jay_ssm/blob/master/image/login.png)
+<div align=center> <img src="https://github.com/luocai/jay_ssm/blob/master/image/login.png"/></div>
 
 管理界面<br/>
-![Image text](https://github.com/luocai/jay_ssm/blob/master/image/admin.png)
+<div align=center> <img src="https://github.com/luocai/jay_ssm/blob/master/image/admin.png"/></div>
 
 编辑界面<br/>
-![Image text](https://github.com/luocai/jay_ssm/blob/master/image/edit.png)
+<div align=center> <img src="https://github.com/luocai/jay_ssm/blob/master/image/edit.png"/></div>
+
 
 功能介绍
 ====
