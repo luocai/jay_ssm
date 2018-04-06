@@ -20,10 +20,27 @@
 * 在数据库中建立名为music的数据库，再在navicate导入运行我提供的jay_ssm.sql文件，生成相关数据源
 * 修改src/main/resource中的jdbc.properties的数据库账号和密码为本机的
 * 将项目添加进tomcat中，并启动服务器，运行
+* 项目包结构<br/>
+<div align=center> <img src="https://github.com/luocai/jay_ssm/blob/master/image/structure.png"/></div>
+
 
 相关界面
 ===
-登录界面
+登录界面<br/>
 ![Image text](https://github.com/luocai/jay_ssm/blob/master/image/login.png)
+
+管理界面<br/>
+![Image text](https://github.com/luocai/jay_ssm/blob/master/image/admin.png)
+
+编辑界面<br/>
+![Image text](https://github.com/luocai/jay_ssm/blob/master/image/edit.png)
+
+功能介绍
+====
+用户登录，若为管理员账户，则进入管理员界面，可以进行对歌曲的增删改查操作，若为游客账户，则进入游客界面，只能进行查询操作
+内置账户如下(1为管理员账户，0为游客账户）<br/>
+
+<div align=center> <img src="https://github.com/luocai/jay_ssm/blob/master/image/datasource.png"/></div>
+
 
 
